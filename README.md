@@ -1,20 +1,25 @@
-# water_quality-ml
-Machine learning project for water quality prediction
-# Water Quality Prediction
+# Water Quality ML Project
 
 ## Overview
 This project uses machine learning to predict whether water is safe to drink.
 
 ## Dataset
-Includes features like pH, hardness, sulfate.
+The dataset includes features such as:
+- pH
+- Hardness
+- Sulfate
+- Other chemical properties
 
 ## Model
 - Classification model
-- Evaluated using accuracy, precision, recall
+- Evaluated using:
+  - Accuracy
+  - Precision
+  - Recall
 
 ## Results
-- Accuracy: ~0.62
+- Accuracy: ~0.62  
 - High recall, lower precision
 
 ## Insight
-The model detects potable water well but may produce false positives.
+The model is good at detecting potable water but may produce false positives.
